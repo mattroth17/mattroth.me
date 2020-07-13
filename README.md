@@ -4,6 +4,6 @@
 
 *Set up starter pack for single-page app with Webpack, Babel, eslint, and SASS*
 
-[deployed url](mattroth-cs52-starter.surge.sh)
+[deployed url](http://mattroth-cs52-starter.surge.sh/)
 
 
