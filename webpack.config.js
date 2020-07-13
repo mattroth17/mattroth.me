@@ -52,11 +52,31 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/,
         use: [
+          'file-loader?name=[name].[ext]?useRelativePath=true', // this was adapted from: https://github.com/tcoopman/image-webpack-loader/issues/131
           {
-            loader: 'file-loader',
-            options: {
-              useRelativePath: true,
-              name: '[name].[ext]',
+            loader: 'image-webpack-loader',
+            options: { // implementing this loader was done by reading readme on image webpack loader repo: https://github.com/tcoopman/image-webpack-loader/issues/131
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+              mozjpeg: {
+                progressive: true,
+                quality: 65,
+              },
+              // optipng.enabled: false will disable optipng
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: [0.65, 0.90],
+                speed: 4,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              // the webp option will enable WEBP
+              webp: {
+                quality: 75,
+              },
             },
           },
         ],
