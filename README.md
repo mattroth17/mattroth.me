@@ -1,11 +1,9 @@
-# Title
+# Starter Pack 
+## Matthew Roth
+### CS52 20X
 
-*description*
+*Set up starter pack for single-page app with Webpack, Babel, eslint, and SASS*
 
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
+[deployed url](mattroth-cs52-starter.surge.sh)
 
 ## Screenshots
