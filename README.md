@@ -6,4 +6,5 @@
 
 [deployed url](http://mattroth-cs52-starter.surge.sh/)
 
-
+### Extra Credit
+I used the image-webpack-loader to incorporate more robust image loading (compress + optimize).
