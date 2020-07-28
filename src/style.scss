@@ -5,10 +5,6 @@ body, html {
     font-size: 30px;
 }
 
-.logo {
-    background-image: url('img/cubs_logo.png');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+.active {
+    color: pink;
 }
