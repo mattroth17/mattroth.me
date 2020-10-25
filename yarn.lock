@@ -7026,6 +7026,11 @@ react-redux@^7.2.1:
     prop-types "^15.7.2"
     react-is "^16.9.0"
 
+react-rounded-image@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/react-rounded-image/-/react-rounded-image-2.0.11.tgz#600eaeefe05582e661854d70c82fe685a084fe77"
+  integrity sha512-9NVGlsI8BlzBJYhqX7UYmUe5v5MiWQ3X6ZIE23kCo9h9pX2X+gRZJX3dLKMoFo5RmUtJcnrQVPdFK9eDyb73Ww==
+
 react-router-dom@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
