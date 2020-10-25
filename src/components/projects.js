@@ -9,33 +9,34 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects-section">
-        <a href="https://sublit.io/">
-          <div className="project">
+        <div className="project">
+          <a href="https://sublit.io/">
             <div className="img-wrap">
               <img alt=" " className="img-project" src={Sublit} />
               <p className="img-description">Airbnb-style website for Dartmouth Off-Campus Housing</p>
             </div>
-            <h1>SubLit <i href="https://github.com/dartmouth-cs52-20X/project-sublit" className="fab fa-github" /></h1>
-          </div>
-        </a>
-        <a href="http://dartmouth-2020.surge.sh/">
-          <div className="project">
+          </a>
+          <a href="https://github.com/dartmouth-cs52-20X/project-sublit"><h1>SubLit <i className="fab fa-github" /></h1></a>
+        </div>
+        <div className="project">
+          <a href="http://dartmouth-2020.surge.sh/">
             <div className="img-wrap">
               <img alt=" " className="img-project" src={Commencement} />
               <p className="img-description">Special Edition Website for Commencement Articles and Leaving Messages for Seniors</p>
             </div>
-            <h1>The Dartmouth: Commencement 2020 Site <i href="https://github.com/mattroth17/Commencement-2020" className="fab fa-github" /></h1>
-          </div>
-        </a>
-        <a href="https://github.com/mattroth17/COVID-19_Vulnerability">
-          <div className="project">
+          </a>
+          <a href="https://github.com/mattroth17/Commencement-2020"><h1>The Dartmouth: Commencement 2020 Site <i className="fab fa-github" /></h1></a>
+
+        </div>
+        <div className="project">
+          <a href="https://github.com/mattroth17/COVID-19_Vulnerability">
             <div className="img-wrap">
               <img alt=" " className="img-project" src={Covid} />
               <p className="img-description">Machine Learning Models for Predicting COVID-19 Vulnerability on a County Level in the U.S.</p>
             </div>
-            <h1>COVID-19 Vulnerability on a County Level <i href="https://github.com/mattroth17/COVID-19_Vulnerability" className="fab fa-github" /></h1>
-          </div>
-        </a>
+          </a>
+          <a href="https://github.com/mattroth17/COVID-19_Vulnerability"><h1>COVID-19 Vulnerability on a County Level <i className="fab fa-github" /></h1></a>
+        </div>
       </div>
     );
   }
