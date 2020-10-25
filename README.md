@@ -1,6 +1,7 @@
 # Personal Website 
 ## Matthew Roth
 ### (for DALI code challenge)
+#### Note: used Netlify for hosting because I used SPA starter-pack from 52
 
 
 [deployed url](http://matthewroth.me/)
