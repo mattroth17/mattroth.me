@@ -13,7 +13,7 @@
 
 
 ## Technical Tools
-*  `React.js` (wasn't really necessary to use React, mainly used for easy setup and router)
+*  `React.js` (wasn't really necessary to use React, used for easy setup, router, and a few components)
 *  also used frontend starter pack from CS52 (includes Webpack, Babel, eslint, Redux, and SASS but not everything was used)
   * Starterpack definitely not needed for this challenge, used it for quick/easy setup
 ## Languages
