@@ -7,7 +7,7 @@
 [deployed url](http://mattroth.me/)
 
 ## To Run
-* `git clone https://github.com/mattroth17/Commencement-2020`
+* `git clone https://github.com/mattroth17/mattroth.me`
 * `yarn install`
 * `yarn start`
 
